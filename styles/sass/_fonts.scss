@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+//font-types
+$primary-font : 'Open Sans', sans-serif;
+$secondary-font : 'Montserrat', sans-serif;
+
+//font-sizes
+$header-size : 20px;
+$body-size : 16px;
+$secondary-size : 14px;
+$tertiary-size : 10px;
+
+//font classes
+.h-text {
+    font-family : $primary-font;
+    font-size : $header-size;
+    color : rgba($color: #fff, $alpha: 0.9)
+}
+
+.b-text {
+    font-family : $secondary-font;
+    font-size : $body-size;
+    color : rgba($color: #fff, $alpha: 0.7)
+}
+
+.s-text {
+    font-family : $secondary-font;
+    font-size : $secondary-size;
+    color : rgba($color: #fff, $alpha: 0.6)
+} 
+
+.t-text {
+    font-family : $secondary-font;
+    font-size : $tertiary-size;
+    color : rgba($color: #fff, $alpha: 0.5)
+}
+
+//weight
+.thin {
+    font-weight : 100;
+}
+.extra-light {
+    font-weight : 200;
+}
+.light {
+    font-weight : 300;
+}
+.medium {
+    font-weight : 500;
+}
+.semi-bold {
+    font-weight : 600;
+}
+.bold {
+    font-weight : 700;
+}
+.black {
+    font-weight : 900;
+}
+
+//style
+.italic {
+    font-style: italic;
+}
